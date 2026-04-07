@@ -65,4 +65,8 @@ and analysis platform.
 *J. Cheminformatics* **2012**, *4*, 17.
 [https://doi.org/10.1186/1758-2946-4-17](https://doi.org/10.1186/1758-2946-4-17)
 
-👉 [Avogadro2 website](https://two.avogadro.cc)
+!!! note
+    This paper describes Avogadro 1.x. No separate publication for
+    Avogadro2 exists yet; the 2012 paper remains the recommended citation.
+
+👉 [Avogadro2 website](https://two.avogadro.cc) · [Avogadro2 GitHub](https://github.com/OpenChemistry/avogadroapp)
