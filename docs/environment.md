@@ -37,12 +37,24 @@ Log in to the Mahti web interface using your **CSC or Haka account**:
     | Field | Value |
     |---|---|
     | **Project** | `project_2017403` |
-    | **Course module** | see [Session overview](workflow.md#session-overview) |
-    | **Reservation** | see [Session overview](workflow.md#session-overview) |
+    | **Course module** | see table below |
+    | **Reservation** | see table below |
     | **Partition** | `small` (or as indicated) |
 
 4. Click **Launch** and wait for the session to start (typically under a minute)
 5. Once the Jupyter environment has opened, navigate to the notebook indicated during the session
+
+### Which module do I pick?
+
+| Session | Course module | Reservation |
+|---|---|---|
+| Core QC workflows (Thu) | `sscc-2026-qc` | `sscc_thu_small` |
+| Multireference methods (Thu, optional) | `sscc-2026-qc-mr` | `sscc_thu_small` |
+| CP2K (Thu, optional) | `sscc-2026-cp2k` | `sscc_thu_small` |
+| PES exploration (Fri) | `sscc-2026-qc-pes` | `sscc_fri_small` |
+
+Partition is `small` for all sessions except CP2K batch jobs (`medium`) —
+see [Workflow](workflow.md#quick-reference) for details.
 
 ---
 
