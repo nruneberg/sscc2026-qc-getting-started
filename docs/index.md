@@ -1,79 +1,59 @@
 # SSCC 2026 – Quantum Chemistry Hands‑on
-## Getting started
 
-Welcome to the Quantum Chemistry hands‑on sessions of the
-**Spring School on Computational Chemistry 2026 (SSCC 2026)**.
-
-This site contains the **essential information needed to get started**
-and to understand how the hands‑on sessions are organised.
+This page provides a **short orientation and step‑by‑step overview**
+for the SSCC 2026 Quantum Chemistry hands‑on sessions.
 
 All practical work is carried out using **Jupyter notebooks**
-in the CSC computing environment.
+in CSC’s computing environment.
 
 ---
 
-## Overview
+## How to proceed
 
-- The hands‑on sessions are run using **CSC Jupyter for Courses**
-  via the Mahti web interface
-- All required software is **pre‑installed and configured**
-- You do **not** need to clone repositories or install software locally
-- The notebooks to be used are provided automatically
-  when the corresponding course module is launched
+### 1. Access the computing environment
+All hands‑on sessions run via **CSC Jupyter for Courses**
+using the **Mahti web interface**.
 
----
-
-## Hands‑on sessions
-
-The Quantum Chemistry part of SSCC 2026 consists of several
-notebook‑based hands‑on sessions conducted on different days.
-
-All hands‑on work is carried out using **CSC Jupyter for Courses**.
-The required notebooks are provided automatically when the
-corresponding course module is launched.
+→ See: environment.md
 
 ---
 
-### Quantum Chemistry hands‑on (Thursday)
+### 2. Start with the core session
+All participants begin with the **core quantum chemistry session**,
+which introduces the basic ORCA workflows used throughout the hands‑on.
 
-The Thursday hands‑on sessions focus on electronic structure methods
-and include parallel tracks covering different levels and topics,
-such as:
+This part is **common to everyone** and provides the foundation for
+all other sessions.
 
-- **Core quantum chemistry workflows**
+---
+
+### 3. Choose additional sessions
+After completing the core session, you may freely choose
+**additional, optional sessions** according to your interests, such as:
+
 - Multireference electronic structure methods
-- Electronic structure and molecular dynamics simulation with CP2K
+- Electronic structure and molecular simulation with CP2K
 
-Detailed instructions are provided directly in the notebooks used
-during the session.
+These sessions are independent and can be followed selectively.
 
-The **Core quantum chemistry workflows** form the **common part of the
-hands‑on and are intended for all participants**.
-
-After completing the core workflows, participants are free to choose
-**any of the additional hands‑on sessions** according to their
-interests. The follow‑up sessions are independent of each other.
+→ See: workflow.md
 
 ---
 
-### Potential Energy Surface exploration (Friday)
+### 4. Use supporting tools if needed
+For building and inspecting molecular structures, an optional
+graphical editor is available via Mahti Open OnDemand.
 
-Potential Energy Surface (PES) exploration is covered in a **separate
-session on Friday**, consisting of a lecture followed by a hands‑on
-exercise.
-
-This session focuses on understanding and analysing molecular
-potential energy surfaces using dedicated notebooks.
+→ See: avogadro.md
 
 ---
 
-## Where to start
+## Where to find live information
 
-To begin working, see:
+The **course schedule, announcements, and Q&A** are handled via the
+SSCC 2026 HedgeDoc (the course “base camp”):
 
-- [Environment](environment.md) – how to access the computing environment
-- [Workflow](workflow.md) – how the hands‑on sessions fit together
-- [Avogadro2 (Mahti OOD)](avogadro.md) – optional graphical molecule editor
+👉 https://siili.rahtiapp.fi/sscc2026
 
-Follow the instructions given during the course sessions to choose the
-appropriate course module and notebooks.
+The notebooks themselves contain the detailed, step‑by‑step
+instructions for each session.

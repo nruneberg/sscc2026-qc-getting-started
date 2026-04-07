@@ -21,3 +21,4 @@ in the Mahti OOD environment.
 ```bash
 module use /projappl/project_2017403/modules
 module load avogadro2
+```
