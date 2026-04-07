@@ -344,6 +344,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#basic-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic workflow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -387,6 +405,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#basic-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic workflow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -407,24 +443,51 @@
 
 
 <h1 id="molecular-structure-building-with-avogadro2">Molecular structure building with Avogadro2</h1>
-<p>For visual inspection and editing of molecular structures we use
-<strong>Avogadro2</strong> via the <strong>Mahti Open OnDemand (OOD)</strong> service.</p>
-<p>Avogadro2 is used only as a graphical molecule editor.
-All quantum chemistry calculations are performed in Jupyter notebooks
-using ORCA or CP2K.</p>
+<p><strong>Avogadro2</strong> is an optional graphical molecule editor available via
+the <strong>Mahti Open OnDemand (OOD)</strong> service.</p>
+<p>Use it to build or inspect molecular structures and export them as
+input coordinates for ORCA or CP2K. All calculations are run in
+Jupyter notebooks — Avogadro2 is a structure preparation tool only.</p>
+<hr />
 <h2 id="accessing-avogadro2-on-mahti">Accessing Avogadro2 on Mahti</h2>
-<p>Avogadro2 is provided via a container installation available
-in the Mahti OOD environment.</p>
 <ol>
-<li>Log in to Mahti Open OnDemand<br />
-   https://www.mahti.csc.fi</li>
-<li>Start an <strong>Interactive Desktop</strong> session</li>
-<li>Open a terminal inside the desktop session</li>
-<li>Enable and load the Avogadro2 module:</li>
+<li>Log in to the Mahti web interface:
+   <a href="https://www.mahti.csc.fi">https://www.mahti.csc.fi</a></li>
+<li>Select <strong>Interactive Desktop</strong> and launch a session</li>
+<li>Once the desktop has loaded, open a <strong>terminal</strong></li>
+<li>
+<p>Load the Avogadro2 module:
+<div class="highlight"><pre><span></span><code><span class="w">    </span>module<span class="w"> </span>use<span class="w"> </span>/projappl/project_2017403/modules
+<span class="w">    </span>module<span class="w"> </span>load<span class="w"> </span>avogadro2
+</code></pre></div></p>
+</li>
+<li>
+<p>Launch Avogadro2:
+<div class="highlight"><pre><span></span><code><span class="w">    </span>avogadro2
+</code></pre></div></p>
+</li>
 </ol>
-<div class="highlight"><pre><span></span><code>module<span class="w"> </span>use<span class="w"> </span>/projappl/project_2017403/modules
-module<span class="w"> </span>load<span class="w"> </span>avogadro2
-</code></pre></div>
+<hr />
+<h2 id="basic-workflow">Basic workflow</h2>
+<ol>
+<li><strong>Build or import a structure</strong> — use the draw tool or
+   <em>File → Open</em> to load an existing file (<code>.xyz</code>, <code>.mol2</code>, etc.)</li>
+<li><strong>Clean up the geometry</strong> — use <em>Extensions → Optimize Geometry</em>
+   for a quick force-field pre-optimisation</li>
+<li><strong>Export coordinates</strong> — <em>File → Save As</em> → choose <code>.xyz</code> format</li>
+<li>Use the exported file as the coordinate input in your ORCA or CP2K
+   notebook</li>
+</ol>
+<hr />
+<h2 id="tips">Tips</h2>
+<ul>
+<li>Avogadro2 runs inside the Interactive Desktop session — keep that
+  session alive while using it</li>
+<li>For simple molecules, the draw tool with auto-hydrogen addition
+  is the fastest way to get started</li>
+<li>A force-field pre-optimisation in Avogadro2 before running ORCA
+  saves time by providing a reasonable starting geometry</li>
+</ul>
 
 
 
