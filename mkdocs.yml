@@ -1,21 +1,19 @@
-site_name: SSCC QC Basic
-site_url: https://nruneberg.github.io/sscc-qc-basic/
-repo_url: https://github.com/nruneberg/sscc-qc-basic
+site_name: SSCC 2026 – QC Hands-on (Getting Started)
+site_url: https://nruneberg.github.io/sscc2026-qc-getting-started/
+repo_url: https://github.com/nruneberg/sscc2026-qc-getting-started
+
 theme:
   name: material
-  logo: img/CSC_logo_Brilliant_pysty_1riv_rgb.png
-  favicon: img/CSC_logo_Brilliant_pysty_1riv_rgb.png
   features:
     - navigation.instant
     - search.highlight
     - search.filters
-    - lightbox
 
 nav:
   - Home: index.md
-  - Preparations: preparations/README.md
-  - Tutorial 1: tutorial1/README.md
-  - Tutorial 2: tutorial2/README.md
+  - Environment: environment.md
+  - Workflow: workflow.md
+  - Avogadro2 (Mahti OOD): avogadro.md
 
 extra_css:
   - stylesheets/custom.css
@@ -23,4 +21,4 @@ extra_css:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences    
+  - pymdownx.superfences
