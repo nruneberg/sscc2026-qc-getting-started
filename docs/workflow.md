@@ -13,13 +13,13 @@ in the notebooks used during each session.
 ## Session overview
 
 ### Quantum Chemistry hands‑on (Thursday)
-**QC engine:** ORCA (and CP2K where applicable)
 
 The Thursday hands‑on sessions focus on electronic structure methods
 and are organised around a **common core session**, followed by
 optional, independent follow‑up sessions.
 
 #### Core quantum chemistry workflows (common to all)
+**QC engine:** ORCA
 
 All participants begin with the **core quantum chemistry workflows**,
 based on an introductory ORCA notebook.
@@ -38,6 +38,7 @@ follow‑up sessions.
 ---
 
 #### Multireference electronic structure methods (optional)
+**QC engine:** ORCA
 
 The multireference session introduces cases where single‑reference
 methods are insufficient and multireference approaches are needed.
