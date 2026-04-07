@@ -1,26 +1,44 @@
-# Spring School on Computational Chemistry Basic QC hands-on
+# SSCC 2026 – Quantum Chemistry Hands‑on
+## Getting started
 
+This site contains **all instructions for accessing and navigating**
+the SSCC 2026 Quantum Chemistry hands‑on sessions.
 
+> ⚙️ **Computing environment**
+>
+> All hands‑on work is carried out using **CSC Jupyter for Courses**.
+> Quantum chemistry calculations use **ORCA** or **CP2K**, depending
+> on the session.
+> No local installation is required.
 
-This repository contains hands-on tutorials designed for the Spring School on Computational Chemistry. The exercises use the TmoleX graphical user interface together with the TURBOMOLE engine running on Puhti.  **Note:** TURBOMOLE requires a license, which is available for academic users on CSC supercomputers.
+## Hands‑on material
 
-## [Preparations](./preparations/README.md)
+The practical exercises are delivered as **Jupyter notebooks**
+maintained in separate repositories.
+This page serves only as a **starting point and signpost**.
 
-- Set up TmoleX either via a browser or by installing it on your own laptop.
+### Core Quantum Chemistry
+**Instructor:** Antti Karttunen  
+➡️ https://github.com/anttikarttunen/sscc2026-qc
 
+---
 
-## [Tutorial 1](./tutorial1/README.md)
+### Potential Energy Surface exploration
+**Instructor:** Nanna  
+➡️ https://github.com/anttikarttunen/sscc2026-qc/tree/main/pes
 
+---
 
-- Use TmoleX to prepare a geometry optimization of a small molecule at the DFT level.
-- Submit the job via TmoleX to Puhti, where the actual calculation is performed.
-- Use TmoleX to monitor the progress of the job.
-- Use TmoleX to retrieve and analyze the results.
+### Multireference methods
+**Instructor:** Nino Runeberg  
+➡️ https://github.com/nruneberg/sscc-2026-qc-mr
 
-## [Tutorial 2](./tutorial2/README.md)
+---
 
-- Perform multiple geometry optimizations of various isomers.
-- Switch to a higher-quality basis set for a single-point energy calculation.
-- Benchmark resource usage by analyzing job durations relative to the resources used.
-- Construct your own job template and apply it to a set of molecules.
+### Electronic structure and molecular simulation with CP2K
+**Maintainer:** CSC Training  
+➡️ https://github.com/csc-training/sscc-cp2k
 
+For details on how the sessions relate to each other, see the
+**Workflow** page.
+``
