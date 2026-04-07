@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#handson-workflow" class="md-skip">
+        <a href="#molecular-structure-building-with-avogadro2" class="md-skip">
           Skip to content
         </a>
       
@@ -316,42 +316,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#session-overview" class="md-nav__link">
+  <a href="#accessing-avogadro2-on-mahti" class="md-nav__link">
     <span class="md-ellipsis">
-      Session overview
+      Accessing Avogadro2 on Mahti
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Session overview">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#thursday-94-quantum-chemistry-handson" class="md-nav__link">
-    <span class="md-ellipsis">
-      Thursday 9.4. — Quantum Chemistry hands‑on
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#friday-104-potential-energy-surface-exploration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Friday 10.4. — Potential Energy Surface exploration
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#where-to-find-instructions" class="md-nav__link">
+  <a href="#basic-workflow" class="md-nav__link">
     <span class="md-ellipsis">
-      Where to find instructions
+      Basic workflow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips
     </span>
   </a>
   
@@ -414,42 +399,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#session-overview" class="md-nav__link">
+  <a href="#accessing-avogadro2-on-mahti" class="md-nav__link">
     <span class="md-ellipsis">
-      Session overview
+      Accessing Avogadro2 on Mahti
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Session overview">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#thursday-94-quantum-chemistry-handson" class="md-nav__link">
-    <span class="md-ellipsis">
-      Thursday 9.4. — Quantum Chemistry hands‑on
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#friday-104-potential-energy-surface-exploration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Friday 10.4. — Potential Energy Surface exploration
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#where-to-find-instructions" class="md-nav__link">
+  <a href="#basic-workflow" class="md-nav__link">
     <span class="md-ellipsis">
-      Where to find instructions
+      Basic workflow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips
     </span>
   </a>
   
@@ -474,62 +444,56 @@
   
 
 
-<h1 id="handson-workflow">Hands‑on workflow</h1>
+<h1 id="molecular-structure-building-with-avogadro2">Molecular structure building with Avogadro2</h1>
+<p><strong>Avogadro2</strong> is an optional graphical molecule editor available via
+the <strong>Mahti Open OnDemand (OOD)</strong> service.</p>
+<p>Use it to build or inspect molecular structures and export them as
+input coordinates for ORCA or CP2K. All calculations are run in
+Jupyter notebooks — Avogadro2 is a structure preparation tool only.</p>
 <hr />
-<h2 id="session-overview">Session overview</h2>
-<h3 id="thursday-94-quantum-chemistry-handson">Thursday 9.4. — Quantum Chemistry hands‑on</h3>
-<p>All participants start with the <strong>core session</strong>. After that, choose
-one or more optional sessions based on your interests.</p>
-<table>
-<thead>
-<tr>
-<th>Session</th>
-<th>Course module</th>
-<th>Reservation</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Core QC workflows <strong>(start here)</strong></td>
-<td><code>sscc-2026-qc</code></td>
-<td><code>sscc_thu_small</code></td>
-</tr>
-<tr>
-<td>Multireference methods (optional)</td>
-<td><code>sscc-2026-qc-mr</code></td>
-<td><code>sscc_thu_small</code></td>
-</tr>
-<tr>
-<td>CP2K (optional)</td>
-<td><code>sscc-2026-cp2k</code></td>
-<td><code>sscc_thu_small</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="friday-104-potential-energy-surface-exploration">Friday 10.4. — Potential Energy Surface exploration</h3>
-<p>Independent of the Thursday sessions.</p>
-<table>
-<thead>
-<tr>
-<th>Session</th>
-<th>Course module</th>
-<th>Reservation</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>PES exploration</td>
-<td><code>sscc-2026-qc-pes</code></td>
-<td><code>sscc_fri_small</code></td>
-</tr>
-</tbody>
-</table>
-<p>Partition is <code>small</code> for all sessions except CP2K batch jobs (<code>medium</code>).</p>
+<h2 id="accessing-avogadro2-on-mahti">Accessing Avogadro2 on Mahti</h2>
+<ol>
+<li>Log in to the Mahti web interface:
+   <a href="https://www.mahti.csc.fi">https://www.mahti.csc.fi</a></li>
+<li>Select <strong>Desktop</strong> and launch a session</li>
+<li>Once the desktop has loaded, open a <strong>terminal</strong></li>
+<li>
+<p>Load the Avogadro2 module:
+<div class="highlight"><pre><span></span><code><span class="w">    </span>module<span class="w"> </span>use<span class="w"> </span>/projappl/project_2017403/modules
+<span class="w">    </span>module<span class="w"> </span>load<span class="w"> </span>avogadro2
+</code></pre></div></p>
+</li>
+<li>
+<p>Launch Avogadro2:
+<div class="highlight"><pre><span></span><code><span class="w">    </span>avogadro2
+</code></pre></div></p>
+</li>
+</ol>
 <hr />
-<h2 id="where-to-find-instructions">Where to find instructions</h2>
-<p>Detailed instructions are in the notebooks themselves.
-For the course schedule and Q&amp;A, see the
-<a href="https://siili.rahtiapp.fi/sscc2026">SSCC 2026 HedgeDoc</a>.</p>
+<h2 id="basic-workflow">Basic workflow</h2>
+<ol>
+<li><strong>Build or import a structure</strong> — use the draw tool or
+   <em>File → Open</em> to load an existing file (<code>.xyz</code>, <code>.mol2</code>, etc.)</li>
+<li><strong>Clean up the geometry</strong> — use <em>Extensions → Optimize Geometry</em>
+   for a quick force-field pre-optimisation</li>
+<li><strong>Export coordinates</strong> — <em>File → Save As</em> → choose <code>.xyz</code> format</li>
+<li>Use the exported file as the coordinate input in your ORCA or CP2K
+   notebook</li>
+</ol>
+<hr />
+<h2 id="tips">Tips</h2>
+<ul>
+<li>Avogadro2 runs inside the Desktop session — keep that
+  session alive while using it</li>
+<li><strong>Copy-paste between your local machine and the desktop</strong> works via
+  the noVNC clipboard: open the <strong>Clipboard</strong> menu from the tab on the
+  left edge of the desktop window, paste your text there, then paste
+  normally inside the desktop</li>
+<li>For simple molecules, the draw tool with auto-hydrogen addition
+  is the fastest way to get started</li>
+<li>A force-field pre-optimisation in Avogadro2 before running ORCA
+  saves time by providing a reasonable starting geometry</li>
+</ul>
 
 
 
