@@ -49,11 +49,10 @@ according to your interests:
 
 ### 4. Use supporting tools if needed
 
-For building and inspecting molecular structures, **Avogadro2** is
-available as an optional graphical editor via Mahti Open OnDemand.
+[Avogadro2](https://two.avogadro.cc) is available via Mahti Open OnDemand as an optional
+graphical tool for building molecular structures and analysing ORCA output.
 
 → See: [Avogadro2](avogadro.md)
-
 ---
 
 ## Where to find live information
