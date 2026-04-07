@@ -1,23 +1,20 @@
 site_name: SSCC 2026 – QC Hands-on (Getting Started)
 site_url: https://nruneberg.github.io/sscc2026-qc-getting-started/
 repo_url: https://github.com/nruneberg/sscc2026-qc-getting-started
-
 theme:
   name: material
   features:
     - navigation.instant
     - search.highlight
     - search.filters
-
 nav:
   - Home: index.md
   - Environment: environment.md
   - Workflow: workflow.md
   - Avogadro2 (Mahti OOD): avogadro.md
-
+  - References: references.md
 extra_css:
   - stylesheets/custom.css
-
 markdown_extensions:
   - admonition
   - pymdownx.details
