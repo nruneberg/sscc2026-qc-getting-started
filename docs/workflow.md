@@ -6,50 +6,83 @@ or methodology.
 
 This page describes how the sessions fit together conceptually.
 Detailed, step‑by‑step instructions are provided directly
-in the notebooks.
+in the notebooks used during each session.
+
+---
 
 ## Session overview
 
-### Core Quantum Chemistry
-**Instructor:** Antti Karttunen  
-**QC engine:** ORCA  
+### Quantum Chemistry hands‑on (Thursday)
+**QC engine:** ORCA (and CP2K where applicable)
 
-This session introduces basic electronic structure calculations
-and ground‑state workflows using ORCA.
+The Thursday hands‑on sessions focus on electronic structure methods
+and are organised around a **common core session**, followed by
+optional, independent follow‑up sessions.
 
----
+#### Core quantum chemistry workflows (common to all)
 
-### Potential Energy Surface exploration
-**Instructor:** Nanna  
-**QC engine:** ORCA  
+All participants begin with the **core quantum chemistry workflows**,
+based on an introductory ORCA notebook.
 
-This session focuses on exploring potential energy surfaces,
-structural variations, and interpretation of PES‑related results.
+After completing the core session, participants will be able to:
 
----
+- Understand the key parts of **ORCA input files** for molecular systems
+- **Optimize molecular structures** with ORCA
+- **Compare total energies** of molecular isomers to identify the
+  lowest‑energy structure
+- **Calculate and interpret infrared vibrational spectra** for molecules
 
-### Multireference methods
-**Instructor:** Nino Runeberg  
-**QC engine:** ORCA  
-
-This session introduces multireference electronic structure methods
-and discusses when and why they are needed.
+This core session provides the foundation needed for the optional
+follow‑up sessions.
 
 ---
 
-### Electronic structure and molecular simulation with CP2K
-**Maintainer:** CSC Training  
-**QC engine:** CP2K  
+#### Multireference electronic structure methods (optional)
 
-This session covers electronic structure and molecular simulation
-workflows using CP2K.
+The multireference session introduces cases where single‑reference
+methods are insufficient and multireference approaches are needed.
+
+This session focuses on:
+
+- Identifying situations that require multireference treatment
+- Understanding the limitations of single‑reference methods
+- Practical multireference calculations using ORCA
+
+Participants may choose this session after completing the core
+workflows, based on their interests.
+
+---
+
+#### Electronic structure and molecular simulation with CP2K (optional)
+**QC engine:** CP2K
+
+The CP2K notebooks explore the **proton transfer step** associated with
+the interconversion of the two enol forms of *2‑formylcyclohexanone*.
+
+The exercises are based on **density functional theory (DFT)
+calculations** and illustrate how electronic structure and molecular
+simulation methods can be used to study reaction pathways and
+energy barriers.
+
+---
+
+### Potential Energy Surface exploration (Friday)
+**QC engine:** ORCA
+
+The Potential Energy Surface (PES) exploration session is held on
+Friday and consists of a lecture followed by a hands‑on exercise.
+
+This session focuses on understanding and analysing molecular
+potential energy surfaces using dedicated notebooks and is
+independent of the Thursday sessions.
+
+---
 
 ## Relationship between sessions
 
-- Each session uses its **own set of Jupyter notebooks**
-- Sessions can be followed **independently**, unless stated otherwise
-  during the course
-- Different QC engines (ORCA and CP2K) are used in different sessions;
-  the required environment is provided in CSC Jupyter for Courses
-
+- The **core quantum chemistry workflows** are common to all participants
+- Subsequent sessions are **optional** and can be chosen freely
+- Follow‑up sessions are largely **independent**, unless stated otherwise
+- Different QC engines (ORCA and CP2K) are used in different sessions
+- All required software is provided via **CSC Jupyter for Courses**
 
