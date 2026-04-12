@@ -40,7 +40,7 @@ Use it to:
 2. **Clean up the geometry** — use *Extensions → Open Babel → Optimize Geometry*
    for a quick force-field pre-optimisation
 3. **Export coordinates** — *File → Export Molecule* → File name `mymolecule.xyz`
-4. Use the exported file as the coordinate input in your ORCA or CP2K notebook
+4. Use the exported `xyz` file as the coordinate input in your ORCA or CP2K notebook
 
 ### Analysing ORCA output
 
