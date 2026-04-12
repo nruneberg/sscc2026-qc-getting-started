@@ -39,7 +39,7 @@ Use it to:
    *File → Open* to load an existing file (`.xyz`, `.mol2`, etc.)
 2. **Clean up the geometry** — use *Extensions → Open Babel → Optimize Geometry*
    for a quick force-field pre-optimisation
-3. **Export coordinates** — *File → Save As* → choose `.xyz` format
+3. **Export coordinates** — *File → Export Molecule* → File name `mymolecule.xyz`
 4. Use the exported file as the coordinate input in your ORCA or CP2K notebook
 
 ### Analysing ORCA output
@@ -48,7 +48,7 @@ Use it to:
 2. **Molecular orbitals** — select the orbital of interest in the
    *Molecular Orbitals* panel and click *Render*
    (requires `!PRINTMOS !PRINTBASIS` or the orbital printout option in the input generator)
-3. **Vibrational modes** — *Analysis → Vibrational Modes* to animate modes
+3. **Vibrational modes** — *Analyze → Vibrational Modes...* to animate modes
    and plot the IR spectrum (requires a frequency calculation)
 
 ---
